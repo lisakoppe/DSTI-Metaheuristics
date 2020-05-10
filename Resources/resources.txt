@@ -1,4 +1,4 @@
 Resources used:
--
--
+- https://towardsdatascience.com/solving-travelling-salesperson-problems-with-python-5de7e883d847
+- https://stackoverflow.com/questions/47719924/reading-in-tsp-file-python
 -
