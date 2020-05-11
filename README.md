@@ -36,4 +36,4 @@ You should provide results for both dimension D=50 and D=500.
 - F5: Shifted Griewank’s Function: [D=50](), [D=500]()
 - F6: Shifted Ackley’s Function: [D=50](), [D=500]()
 
-The code of the functions as well as the shifts are available in C in the (cec08)[https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/tree/master/Resources/cec08] folder.
+The code of the functions as well as the shifts are available in C in the [cec08](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/tree/master/Resources/cec08) folder.
