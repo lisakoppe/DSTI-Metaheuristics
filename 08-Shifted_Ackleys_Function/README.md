@@ -5,6 +5,8 @@
 ![Ackley_paper](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Screenshots/Ackley_paper.png)
 
 ## 01. Chosen algorithm to solve the problem
+Nelder-Mead:
+
 
 ## 02. Parameters of the algorithm
 
