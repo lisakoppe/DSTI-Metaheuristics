@@ -51,7 +51,7 @@ def solver(dimension, func):
     # Compute the initial guess
     x0 = np.random.uniform(lower_bound, upper_bound, dimension)
     # Minimize the function thanks to the Nelder-Mead algorithm
-    sol = minimize(func, x0, bounds=(lower_bound, upper_bound), method='Powell', callback=sol_set)
+    sol = minimize(func, x0, bounds=(lower_bound, upper_bound), method='SLSQP', callback=sol_set)
     return sol
 
 

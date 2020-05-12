@@ -1,7 +1,4 @@
 
-gpython:S1542Y"ORename function "AllSol" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(šÓ•ÿ
-ipython:S3827["EObj_func is not defined. Change its name or define it before using it(£Ó‡Ðúÿÿÿÿ8é£¿š .
-kpython:S1170"URename this local variable "Sum2" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ò°ºX
-fpython:S3827`"Gstart_time is not defined. Change its name or define it before using it(ÖÚ…‡8Ï¨ïš .
-npython:S1542="QRename function "Solution" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(œ®óôûÿÿÿÿ
-qpython:S117/"URename this local variable "Sum1" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ñ×‰„ÿÿÿÿÿ
+xpython:S117"URename this local variable "Sum1" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ñ×‰„ÿÿÿÿÿ8”€Àž .
+rpython:S117"URename this local variable "Sum2" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ò°ºX8”€Àž .
+Epython:S1481<"'Remove the unused local variable "fig".(¨’M8„Ç’Å .
