@@ -1,4 +1,9 @@
 Resources used:
 - https://towardsdatascience.com/solving-travelling-salesperson-problems-with-python-5de7e883d847
 - https://stackoverflow.com/questions/47719924/reading-in-tsp-file-python
--
+- https://docs.python.org/3/library/time.html
+- https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html
+- https://numpy.org/devdocs/
+- https://pandas.pydata.org/docs/
+- https://esa.github.io/pygmo2/index.html
+- https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.plot.html

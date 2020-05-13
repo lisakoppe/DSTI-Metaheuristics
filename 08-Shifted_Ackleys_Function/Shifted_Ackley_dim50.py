@@ -27,14 +27,12 @@ upper_bound = 32
 def function(x, data=ackley, dim=D, f_bias=bias):
     Sum1 = 0
     Sum2 = 0
-    for i in range(0, dim):
+    for i in range(dim - 1):
         z = x[i] - data[i]
-        Sum1 = z**2
-        Sum2 = math.cos(2*math.pi*z)
-        Sum1 += Sum1
-        Sum2 += Sum2
-    F = -20 * math.exp(-0.2*math.sqrt(Sum1/dim)) - math.exp(Sum2/dim) + 20 + math.e + f_bias
-    return F
+        Sum1 += z**2
+        Sum2 += math.cos(2*math.pi*z)
+    res = -20 * math.exp(-0.2*math.sqrt(Sum1/dim)) - math.exp(Sum2/dim) + 20 + math.e + f_bias
+    return res
 
 
 # Create a function to gather all the solutions computed. To be used in callback
