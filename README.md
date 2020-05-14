@@ -73,7 +73,9 @@ For more environment creation commands, go to [this repository](https://github.c
 ## Initial machine used to run the scripts
 
 Processor: Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
+
 RAM: 32.0 GB
+
 System type: 64-bit OS, x64-based processor
 
 ## Resources used
