@@ -1,6 +1,62 @@
-# Travelling Salesman Problem
-# Djibouti
-# 38 cities
+# Discrete Optimization: Travelling Salesman Problem
+# Djibouti - 38 cities
+
+# Import all the necessary packages
+import mlrose
+import pandas as pd
+import time
+
+
+
+
+
+
+
+
+
+
+start_time = time.time() # To evaluate computational time
+
+# Download data
+cities = pd.read_csv("E:\DataScience\DSTI\Metaheuristic\Exam\TSP\Djibouti_38.csv")
+
+
+# Create 2D matrix containing x,y coordinate of all the cities
+cities_list = cities[['X','Y']].values.tolist()
+
+# Initialize fitness function object
+fitness_coords = mlrose.TravellingSales(coords=cities_list)
+problem_fit = mlrose.TSPOpt(length = 38, fitness_fn = fitness_coords,
+                            maximize=False)
+
+# Solve problem using the genetic algorithm
+best_state, best_fitness = mlrose.genetic_alg(problem_fit, random_state = 2)
+
+print()
+print('The best state found is: ', best_state)
+print()
+print('The fitness at the best state is: ', best_fitness)
+print()
+print("Computational time: {:.3f} seconds".format(time.time()-start_time))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # # Import necessary packages
 # import pandas as pd
@@ -177,30 +233,3 @@
 
 #__________________________________________________________________________________
 
-import mlrose
-import pandas as pd
-import time
-
-start_time = time.time() # To evaluate computational time
-
-# Download data
-cities = pd.read_csv("E:\DataScience\DSTI\Metaheuristic\Exam\TSP\Djibouti_38.csv")
-
-
-# Create 2D matrix containing x,y coordinate of all the cities
-cities_list = cities[['X','Y']].values.tolist()
-
-# Initialize fitness function object
-fitness_coords = mlrose.TravellingSales(coords=cities_list)
-problem_fit = mlrose.TSPOpt(length = 38, fitness_fn = fitness_coords,
-                            maximize=False)
-
-# Solve problem using the genetic algorithm
-best_state, best_fitness = mlrose.genetic_alg(problem_fit, random_state = 2)
-
-print()
-print('The best state found is: ', best_state)
-print()
-print('The fitness at the best state is: ', best_fitness)
-print()
-print("Computational time: {:.3f} seconds".format(time.time()-start_time))
