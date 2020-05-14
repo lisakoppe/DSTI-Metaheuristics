@@ -60,7 +60,7 @@ def solver(dimension, lower_bound, upper_bound, optim, bias, popsize):
     global log
     global curve
     prob = pg.problem(schwefel_prob(dimension, lower_bound, upper_bound, optim, bias))
-    algo = pg.algorithm(pg.sga(gen=500000, cr=0.9, eta_c=1.0, m=0.02, param_m=1.0, param_s=2, crossover='sbx', mutation='polynomial', selection='truncated'))
+    algo = pg.algorithm(pg.sga(gen=100000, cr=0.9, eta_c=1.0, m=0.02, param_m=1.0, param_s=2, crossover='sbx', mutation='polynomial', selection='truncated'))
     algo.set_verbosity(1)
     pop = pg.population(prob, popsize)
     pop = algo.evolve(pop)

@@ -20,7 +20,7 @@ D = 500
 bias = -140
 lower_bound = -32
 upper_bound = 32
-popsize = 100
+popsize = 200
 
 
 # Define the Shifted Ackley's function with the previous parameters
@@ -63,7 +63,7 @@ def solver(dimension, lower_bound, upper_bound, optim, bias, popsize):
     global log
     global curve
     prob = pg.problem(ackley_prob(dimension, lower_bound, upper_bound, optim, bias))
-    algo = pg.algorithm(pg.pso(gen=8000, omega=0.6, eta1=1.5, eta2=2.5, max_vel=0.5, variant=1))
+    algo = pg.algorithm(pg.pso(gen=8000, omega=0.6, eta1=2, eta2=4, max_vel=0.5, variant=5, neighb_type=2, neighb_param=4))
     algo.set_verbosity(1)
     pop = pg.population(prob, popsize)
     pop = algo.evolve(pop)

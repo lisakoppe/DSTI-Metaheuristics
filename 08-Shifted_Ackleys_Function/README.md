@@ -1,25 +1,32 @@
 # Continuous Optimization: Shifted Ackley's Function (F6)
 
-## 00. Definition of the function from the [paper](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/Resources/CEC2008_TechnicalReport.pdf)
+## Definition of the function from the [paper](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/Resources/CEC2008_TechnicalReport.pdf)
 
 ![Ackley_paper](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Screenshots/Ackley_paper.png)
 
-## 01. Chosen algorithm to solve the problem
-Nelder-Mead:
+
+## Dimension 50
+
+**Code in Python available** [here](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Shifted_Ackley_dim50.py)
+
+**Results**
+![Ackley_res50](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Screenshots/Ackley_res50.png)
+
+![Ackley_convergence_curve50](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Screenshots/Ackley_convergence_curve50.png)
+
+**Computed solutions available** [here](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Ackley_sol50.csv)
 
 
-## 02. Parameters of the algorithm
+## Dimension 500
 
-## 03. Final results
-(solution and fitness)
+**Code in Python available** [here](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Shifted_Ackley_dim500.py)
 
-## 04. Number of function evaluations
+**Results**
+![Ackley_res500](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Screenshots/Ackley_res500.png)
 
-## 05. Stopping criterion
+![Ackley_convergence_curve500](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Screenshots/Ackley_convergence_curve500.png)
 
-## 06. Computational time
+**Computed solutions available** [here](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Ackley_sol500.csv)
 
-## 07. Convergence curve
-(fitness as a function of time)
 
-+ how to execute the code
+[Back to the list of continuous optimization functions](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization#02-continuous-optimization)

@@ -37,3 +37,6 @@ Results are provided for both dimension D=50 and D=500:
 - F6: Shifted Ackley’s Function: [D=50](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Shifted_Ackley_dim50.py), [D=500](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/08-Shifted_Ackleys_Function/Shifted_Ackley_dim500.py)
 
 The code of the functions as well as the shifts are available in C in the [cec08](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/tree/master/Resources/cec08) folder.
+
+
++ how to execute the code
