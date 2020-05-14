@@ -1,4 +1,4 @@
-# Continuous Optimization: Shifted Schwefel's Function (F2) with D=50
+# Continuous Optimization: Shifted Schwefel's Problem 2.21 (F2) with D=50
 
 # Import all the necessary packages
 import numpy as np
@@ -9,7 +9,7 @@ import time
 
 
 # Read data from csv
-raw_data = pd.read_csv("Data/Schwefels_data.csv")
+raw_data = pd.read_csv("Data/Schwefel_data.csv")
 schwefel = raw_data["val"].tolist()
 print(schwefel)
 print(type(schwefel))
@@ -23,7 +23,7 @@ upper_bound = 100
 sol_list = []
 
 
-# Define the Shifted Schwefel's function with the previous parameters
+# Define the Shifted Schwefel's Problem 2.21 with the previous parameters
 def function(x, data=schwefel, dim=D, f_bias=bias):
     F = abs(x[0] - data[0])
     for i in range(1, dim - 1):
@@ -62,7 +62,7 @@ def solver(dimension, lower_bound, upper_bound):
 def plot_fitness(solution):
     fig = plt.figure(figsize=(16, 13))
     plt.plot(solution)
-    plt.title("Continuous Optimization: Shifted Schwefel's Function (F2) with D=50", fontsize=16)
+    plt.title("Continuous Optimization: Shifted Schwefel's Problem 2.21 (F2) with D=50", fontsize=16)
     plt.xlabel("Time (iterations)", fontsize=12)
     plt.ylabel("Fitness", fontsize=12)
     plt.savefig("Screenshots/Schwefel_convergence_curve50.png")
@@ -82,7 +82,7 @@ comp_time = t2 - t1
 
 # Print parameters and solutions
 print("==========================================================================\n")
-print("Function: Shifted Schwefel's Function (F2)\n")
+print("Function: Shifted Schwefel's Problem 2.21 (F2)\n")
 print("01. Chosen algorithm to solve the problem: BFGS from SciPy\n")
 print("02. Parameters:")
 print("\nDimension:", D)

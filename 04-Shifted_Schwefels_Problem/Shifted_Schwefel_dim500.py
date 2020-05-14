@@ -1,4 +1,4 @@
-# Continuous Optimization: Shifted Schwefel's Function (F2) with D=500
+# Continuous Optimization: Shifted Schwefel's Problem 2.21 (F2) with D=500
 
 # Import all the necessary packages
 import numpy as np
@@ -9,7 +9,7 @@ import time
 
 
 # Read data from csv
-raw_data = pd.read_csv("Data/Schwefels_data.csv")
+raw_data = pd.read_csv("Data/Schwefel_data.csv")
 schwefel = raw_data["val"].tolist()
 print(schwefel)
 print(type(schwefel))
@@ -20,10 +20,10 @@ D = 500
 bias = -450
 lower_bound = -100
 upper_bound = 100
-popsize = 50
+popsize = 100
 
 
-# Define the Shifted Schwefel's function with the previous parameters
+# Define the Shifted Schwefel's Problem 2.21 with the previous parameters
 def function(x, data, dim, f_bias):
     F = abs(x[0] - data[0])
     for i in range(1, dim - 1):
@@ -60,7 +60,7 @@ def solver(dimension, lower_bound, upper_bound, optim, bias, popsize):
     global log
     global curve
     prob = pg.problem(schwefel_prob(dimension, lower_bound, upper_bound, optim, bias))
-    algo = pg.algorithm(pg.sga(gen=100000, cr=0.9, eta_c=1.0, m=0.02, param_m=1.0, param_s=2, crossover='sbx', mutation='polynomial', selection='truncated'))
+    algo = pg.algorithm(pg.sga(gen=500000, cr=0.9, eta_c=1.0, m=0.02, param_m=1.0, param_s=2, crossover='sbx', mutation='polynomial', selection='truncated'))
     algo.set_verbosity(1)
     pop = pg.population(prob, popsize)
     pop = algo.evolve(pop)
@@ -74,10 +74,9 @@ def solver(dimension, lower_bound, upper_bound, optim, bias, popsize):
 def plot_fitness(solution):
     fig = plt.figure(figsize=(16, 13))
     plt.plot(solution)
-    plt.title("Continuous Optimization: Shifted Schwefel's Function (F2) with D=500", fontsize=16)
+    plt.title("Continuous Optimization: Shifted Schwefel's Problem 2.21 (F2) with D=500", fontsize=16)
     plt.xlabel("Time (iterations)", fontsize=12)
     plt.ylabel("Fitness", fontsize=12)
-    plt.legend('SGA', loc='upper right')
     plt.savefig("Screenshots/Schwefel_convergence_curve500.png")
     plt.show()
 
@@ -95,7 +94,7 @@ comp_time = t2 - t1
 
 # Print parameters and solutions
 print("==========================================================================\n")
-print("Function: Shifted Schwefel's Function (F2)\n")
+print("Function: Shifted Schwefel's Problem 2.21 (F2)\n")
 print("01. Chosen algorithm to solve the problem: SGA from Pygmo\n")
 print("02. Parameters:")
 print("\nDimension:", D)
