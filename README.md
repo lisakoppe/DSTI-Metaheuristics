@@ -38,5 +38,44 @@ Results are provided for both dimension D=50 and D=500:
 
 The code of the functions as well as the shifts are available in C in the [cec08](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/tree/master/Resources/cec08) folder.
 
+## Environment setup
 
-+ how to execute the code
+In order to run the code, first make sure to install Anaconda:
+```
+sudo apt-get update -y
+wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+sudo bash Anaconda3-2019.07-Linux-x86_64.sh
+source ~/.bashrc
+conda update --all --yes
+```
+
+Clone the whole metaheuristics repository to your machine:
+```
+sudo apt-get install git
+git clone https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization.git
+```
+
+Create a virtual environment with the required packages available [here](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/Resources/requirements.txt):
+```
+conda create -n nameofyourenv python=3.7
+conda install nb_conda
+pip install -r requirements.txt
+```
+
+Activate the created environment and run .py files:
+```
+conda activate nameofyourenv
+# then run any Python file from repository
+```
+
+For more environment creation commands, go to [this repository](https://github.com/lisakoppe/Toolbox/blob/master/Virtual%20environments/Environment_creation_conda.md).
+
+## Initial machine used to run the scripts
+
+Processor: Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
+RAM: 32.0 GB
+System type: 64-bit OS, x64-based processor
+
+## Resources used
+
+Resources used are listed [here](https://github.com/lisakoppe/DSTI-Metaheuristics_Optimization/blob/master/Resources/resources.txt).
