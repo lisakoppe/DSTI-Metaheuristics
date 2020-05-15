@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f94ededc-8c29-42a8-91c7-0262ec0d8add" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/01-TSP_Djibouti/TSP_Djibouti.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-TSP_Djibouti/TSP_Djibouti.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-TSP_Qatar/TSP_Qatar.py" beforeDir="false" afterPath="$PROJECT_DIR$/02-TSP_Qatar/TSP_Qatar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/resources.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/resources.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f94ededc-8c29-42a8-91c7-0262ec0d8add" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
