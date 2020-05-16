@@ -36,7 +36,7 @@ t1 = time.time()
 # Solve the problem using the genetic algorithm
 best_state, best_fitness, fitness_curve = mlrose.genetic_alg(problem=problem_fit,
                                                              pop_size=population,
-                                                             mutation_prob=0.95,
+                                                             mutation_prob=0.1,
                                                              max_attempts=1000,
                                                              max_iters=10000,
                                                              curve=True)
@@ -52,7 +52,7 @@ print("01. Chosen algorithm to solve the problem: Genetic Algorithm from mlrose\
 print("02. Parameters:")
 print("\nNumber of cities:", nb_cities)
 print("\nPopulation:", population)
-print("\nMutation prob: 0.01")
+print("\nMutation prob: 0.1")
 print("\nMax attempts: 1000")
 print("\nMax iterations: 10000")
 print("\nNumber of cities:", nb_cities)
@@ -61,7 +61,7 @@ sol_df = pd.DataFrame(best_state, columns=[''])
 sol_df.to_csv("Djibouti38_sol.csv", sep=",")
 print("\n    - Solutions:", sol_df)
 print("\n    - Fitness:", round(best_fitness, 2))
-print("\nStopping criterion: 1000 iterations")
+print("\nStopping criterion: 3000 iterations")
 print("\nComputational time:", round(comp_time, 2), "seconds\n")
 print("==========================================================================")
 
