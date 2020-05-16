@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f94ededc-8c29-42a8-91c7-0262ec0d8add" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/02-TSP_Qatar/Qatar194_sol.csv" beforeDir="false" afterPath="$PROJECT_DIR$/02-TSP_Qatar/Qatar194_sol.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-TSP_Qatar/Screenshots/TSP_convergence_qatar194.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-TSP_Qatar/Screenshots/TSP_convergence_qatar194.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-TSP_Qatar/Screenshots/TSP_route_qatar194.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-TSP_Qatar/Screenshots/TSP_route_qatar194.png" afterDir="false" />
-    </list>
+    <list default="true" id="f94ededc-8c29-42a8-91c7-0262ec0d8add" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
