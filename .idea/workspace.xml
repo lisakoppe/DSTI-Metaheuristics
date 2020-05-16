@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f94ededc-8c29-42a8-91c7-0262ec0d8add" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-TSP_Djibouti/Djibouti38_sol.csv" beforeDir="false" afterPath="$PROJECT_DIR$/01-TSP_Djibouti/Djibouti38_sol.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-TSP_Djibouti/Screenshots/TSP_convergence_djibouti38.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-TSP_Djibouti/Screenshots/TSP_convergence_djibouti38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-TSP_Djibouti/Screenshots/TSP_route_djibouti38.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-TSP_Djibouti/Screenshots/TSP_route_djibouti38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-TSP_Djibouti/TSP_Djibouti.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-TSP_Djibouti/TSP_Djibouti.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-TSP_Qatar/TSP_Qatar.py" beforeDir="false" afterPath="$PROJECT_DIR$/02-TSP_Qatar/TSP_Qatar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-TSP_Qatar/Qatar194_sol.csv" beforeDir="false" afterPath="$PROJECT_DIR$/02-TSP_Qatar/Qatar194_sol.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-TSP_Qatar/Screenshots/TSP_convergence_qatar194.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-TSP_Qatar/Screenshots/TSP_convergence_qatar194.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-TSP_Qatar/Screenshots/TSP_route_qatar194.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-TSP_Qatar/Screenshots/TSP_route_qatar194.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
